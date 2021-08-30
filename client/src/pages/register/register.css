@@ -1,0 +1,63 @@
+.register {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0.1)), url("https://p4.wallpaperbetter.com/wallpaper/744/120/835/sky-background-for-pc-wallpaper-preview.jpg");
+    background-size: cover;
+  
+}
+
+
+.registerTitle {
+    font-size: 50px;
+    margin-top: 20vh;
+}
+
+
+.registerForm {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+
+
+.registerForm label {
+    margin: 10px 0;
+    border: none;
+    width: 10vw;
+}
+
+
+.registerForm input {
+    padding: 10px;
+    width: 15register
+}
+
+.registerSubmit {
+    margin-top: 20px;
+    width: 100px;
+    padding: 10px;
+    align-self: center;
+    border-radius: 10px;
+    border: none;
+    background-color: teal;
+    cursor: pointer;
+    color: white;
+}
+
+.registerLoginButton{
+    right: 10%;
+    position: absolute;
+    top: 10%;
+    width: 100px;
+    border:none;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(253, 95, 95);
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
