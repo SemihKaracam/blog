@@ -33,6 +33,7 @@ function App() {
           {user ? <Write/> : <Home/>}
         </Route>
         <Route path="/settings">
+          //Ben Murat
           {user ? <Settings/> : <Register/>}
         </Route>
         <Route path="/post/:postId">
